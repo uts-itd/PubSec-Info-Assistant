@@ -107,7 +107,7 @@ param principalId string = ''
 param kvAccessObjectId string = ''
 
 var abbrs = loadJsonContent('abbreviations.json')
-var tags = { ProjectName: 'Information Assistant', BuildNumber: buildNumber }
+var tags = { ProjectName: 'UTS DAIU Development InfoAssistant', BuildNumber: buildNumber, uts_costcentre: '5000023.00000000', uts_data_classification: 'UTS Sensitive', uts_env: 'nonprod', uts_iac: 'true', uts_primarycontact: 'carl.young@uts.edu.au', uts_project: 'Data Analytics & AI', uts_repo: 'https://github.com/uts-itd/PubSec-Info-Assistant/blob/uts-daiu-dev-InfoAssistant', uts_research: 'false'}
 var prefix = 'infoasst'
 
 // Organize resources in a resource group
